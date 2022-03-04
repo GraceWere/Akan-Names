@@ -25,3 +25,15 @@ nav ul li a {
   font-size: 17px;
   letter-spacing: 1px;
 }
+.text-box {
+  margin-top: 16%;
+  font-size: 22px;
+  color: black;
+}
+.text-box h1 {
+  font-size: 85px;
+  font-weight: 600;
+  line-height: 100px;
+  margin-bottom: 10px;
+  color: black;
+}
