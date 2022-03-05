@@ -31,16 +31,36 @@
                 children are given their first name as a 'day name' which corresponds to <br>
                 the day in the week they were born.</p>
 
-                <form name="submissionForm" class="form" onsubmit="validate();">
-                    
-                <label for="gender">
-                    <input type="radio" name="gender" value="male">male
-                    <input type="radio" name="gender" value="female">female
-                </label>
-                <label for="Date of Birth">
-                    <input type="date" id="birthday" name="birthday">
-                </label>
+                <form name="myForm" class="form" onsubmit="validate();">
+                    <div class="form-group">
+                        <label for="number">Year of Birth</label>
+                        <input type="number" class="form-control" id="year" placeholder="year of birth" name="year">
+                    </div>
+                    <div class="form-group">
+                        <label for="month"> month of birth</label>
+                        <input type="number" class="form-control" id="month" placeholder="month of birth" name="month">
+                    </div>
+                    <div class="form-group">
+                        <label for="date">Date of birth</label>
+                        <input type="number" class="form-control" id="date" placeholder="date of birth" name="date">
+                    </div>
+                    <div class="form-group">
+                        <label for="month">gender</label><br>
+                        <div class="form-check-in-line">
+                            <label class="form-check-label">
+                                <input type="radio" class="form-check-input" name="gender" id="male">
+                            </label>
+                        </div>
+                            <div class="form-check-inline">
+                                <label class="form-check-label">
+                                    <input type="radio" class="form-check-input" name="gender" id="female">
+                                </label>
+                            </div>
+
+                    </div>
+
                     <button type="submit" class="btn btn-primary" onclick="findname();">Submit</button>
+                    <br>
 
 
 
