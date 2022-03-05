@@ -37,3 +37,11 @@ nav ul li a {
   margin-bottom: 10px;
   color: rgb(8, 0, 0);
 }
+.form {
+  position: relative;
+  background-color: #fff;
+  max-width: 360px;
+  margin: 0px auto 100px;
+  padding: 45px;
+  text-align: center;
+}
