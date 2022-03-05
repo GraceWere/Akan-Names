@@ -32,11 +32,11 @@ Enter date of birth eg 13
 Select gender
 
 An example:
-Century input - 20
-Year input - 19
-Month input - 11
-Date input - 13
-Gender selcted - female
+Century input - 20  
+Year input - 19  
+Month input - 11  
+Date input - 13  
+Gender selected - female
 
 Expected output is: You were born on Monday and your Akan Name is Adwoa.
 
